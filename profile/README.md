@@ -4,6 +4,16 @@ development workflow.
 
 ## Elixir
 
+- [ecto_temp](https://hexdocs.pm/ecto_temp) - An Ecto extension to support using PostgreSQL temporary tables with Ecto.
+  This can be useful in situations where permanent tables may not be viable, such as when testing data migrations
+  (where the schema at the time of test creation will differ over time), or to test modules that extend Ecto, but
+  are not concernted with a specific schema.
+- [elixir-gestalt](https://hexdocs.pm/elixir-gestalt) - A wrapper for Application.get_config and System.get_env
+  that makes it easy to swap in process-specific overrides. Among other things, this allows tests to provide
+  async-safe overrides.
+- [exceed](https://hexdocs.pm/exceed) - A high-level stream-oriented library for generating Excel files, useful
+  when generating spreadsheets from data sets large enough that they may exceed available memory—or the available
+  memory that one wants to dedicate to building spreadsheets.
 - [html_query](https://hexdocs.pm/html_query) - Helpers for finding and traversing HTML
   in Elixir. Typically used in tests for Phoenix/LiveView projects, paired with [pages](https://hexdocs.pm/pages).
 - [markdown_formatter](https://hexdocs.pm/markdown_formatter/readme.html) - An Elixir formatter plugin for
@@ -11,10 +21,17 @@ development workflow.
 - [medic](https://hexdocs.pm/medic) - Development workflow management. Help developers to
   rapidly set up a project on their workstations, and ship code that will pass CI. doctor/test/audit/shipit
   with alacrity.
+- [medic](https://hexdocs.pm/medic-ex) - Development workflow management. Help developers to rapidly set up a
+  project on their workstations, and ship code that will pass CI. doctor/test/audit/shipit with alacrity.
+- [moar](https://hexdocs.pm/moar) - A dependency-free library containing an assortment of useful functions.
 - [pages](https://hexdocs.pm/pages) - A functional [page object pattern](https://martinfowler.com/bliki/PageObject.html)
   providing adapters for writing Phoenix/LiveView tests.
 - [schema_assertions](https://hexdocs.pm/schema_assertions) - Test helpers for validating ecto schemas.
-- [seed](https://github.com/synchronal/seed) - Opinionated boilerplate for starting Phoenix/LiveView projects.
+- [specter](https://github.com/synchronal/specter) - A wrapper for webrtc.rs as an Elixir NIF, using Rustler.
+- [tablerone](https://github.com/synchronal/tablerone) - Renders Tabler Icons by downloading individual icons to the
+  priv directory of the parent application during development, and loading them from files at runtime.
+- [xml_query](https://github.com/synchronal/xml_query) - Some simple XML query functions. Delegates much of its work
+  to :xmerl, but provides an API similar to HtmlQuery.
 
 ## Development workflow
 
