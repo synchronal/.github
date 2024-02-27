@@ -14,6 +14,8 @@ development workflow.
 - [exceed](https://hexdocs.pm/exceed) - A high-level stream-oriented library for generating Excel files, useful
   when generating spreadsheets from data sets large enough that they may exceed available memory—or the available
   memory that one wants to dedicate to building spreadsheets.
+- [hex-publish-action](https://github.com/synchronal/hex-publish-action) - This action publishes an Elixir package
+  to Hex.pm.
 - [html_query](https://hexdocs.pm/html_query) - Helpers for finding and traversing HTML
   in Elixir. Typically used in tests for Phoenix/LiveView projects, paired with [pages](https://hexdocs.pm/pages).
 - [markdown_formatter](https://hexdocs.pm/markdown_formatter/readme.html) - An Elixir formatter plugin for
@@ -33,9 +35,11 @@ development workflow.
 - [xml_query](https://github.com/synchronal/xml_query) - Some simple XML query functions. Delegates much of its work
   to :xmerl, but provides an API similar to HtmlQuery.
 
-## Development workflow
+## Rust
 
 - [dyd](https://github.com/synchronal/dyd) - Daily Diff. Opens diffs of changes across multiple git
   repositories, to rapidly review recent changes.
 - [medic-rs](https://github.com/synchronal/medic-rs) - Medic. A rewrite of [elixir medic](https://hexdocs.pm/medic)
   in Rust, to facilitate the usage of the Medic workflow on projects written in languages other than Elixir.
+- [retrogress](https://github.com/synchronal/retrogress) - A wrapper around indicatif, providing structs and traits
+  that have a simple and limited API and that can be passed between modules and functions.
