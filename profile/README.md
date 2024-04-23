@@ -1,6 +1,5 @@
 Synchronal is an unincorporated cooperative group dedicated to developing and maintaining
-open-source projects, typically using Elixir and Rust. We care deeply about testing and
-development workflow.
+open-source projects. We care deeply about testing and development workflow.
 
 ## Elixir
 
