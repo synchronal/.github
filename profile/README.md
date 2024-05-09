@@ -22,8 +22,6 @@ open-source projects. We care deeply about testing and development workflow.
 - [medic](https://hexdocs.pm/medic) - Development workflow management. Help developers to
   rapidly set up a project on their workstations, and ship code that will pass CI. doctor/test/audit/shipit
   with alacrity.
-- [medic](https://hexdocs.pm/medic-ex) - Development workflow management. Help developers to rapidly set up a
-  project on their workstations, and ship code that will pass CI. doctor/test/audit/shipit with alacrity.
 - [moar](https://hexdocs.pm/moar) - A dependency-free library containing an assortment of useful functions.
 - [pages](https://hexdocs.pm/pages) - A functional [page object pattern](https://martinfowler.com/bliki/PageObject.html)
   providing adapters for writing Phoenix/LiveView tests.
