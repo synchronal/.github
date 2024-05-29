@@ -7,7 +7,7 @@ open-source projects. We care deeply about testing and development workflow.
   This can be useful in situations where permanent tables may not be viable, such as when testing data migrations
   (where the schema at the time of test creation will differ over time), or to test modules that extend Ecto, but
   are not concernted with a specific schema.
-- [elixir-gestalt](https://hexdocs.pm/elixir-gestalt) - A wrapper for Application.get_config and System.get_env
+- [elixir-gestalt](https://hexdocs.pm/gestalt) - A wrapper for Application.get_config and System.get_env
   that makes it easy to swap in process-specific overrides. Among other things, this allows tests to provide
   async-safe overrides.
 - [exceed](https://hexdocs.pm/exceed) - A high-level stream-oriented library for generating Excel files, useful
