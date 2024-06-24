@@ -3,6 +3,10 @@ open-source projects. We care deeply about testing and development workflow.
 
 ## Elixir
 
+- [ecto_date_time_range](https://hexdocs.pm/ecto_date_time_range) - A library extending Ecto with field types to handle
+  PostgreSQL column types encapsulating timestamp ranges. The types provided by this library can be paired with view
+  components in order to facilitate editing ranges in forms.
+- [ecto_email](https://hexdocs.pm/ecto_email/) - An Ecto.Type for email addresses, using the :email_validator library for validations.
 - [ecto_temp](https://hexdocs.pm/ecto_temp) - An Ecto extension to support using PostgreSQL temporary tables with Ecto.
   This can be useful in situations where permanent tables may not be viable, such as when testing data migrations
   (where the schema at the time of test creation will differ over time), or to test modules that extend Ecto, but
@@ -23,10 +27,11 @@ open-source projects. We care deeply about testing and development workflow.
   rapidly set up a project on their workstations, and ship code that will pass CI. doctor/test/audit/shipit
   with alacrity.
 - [moar](https://hexdocs.pm/moar) - A dependency-free library containing an assortment of useful functions.
-- [pages](https://hexdocs.pm/pages) - A functional [page object pattern](https://martinfowler.com/bliki/PageObject.html)
-  providing adapters for writing Phoenix/LiveView tests.
+- [pages](https://hexdocs.pm/pages) - A library for testing Phoenix user interfaces including seamlessly
+  switching between LiveViews and controller-based views.
 - [schema_assertions](https://hexdocs.pm/schema_assertions) - Test helpers for validating ecto schemas.
 - [specter](https://github.com/synchronal/specter) - A wrapper for webrtc.rs as an Elixir NIF, using Rustler.
+- [supra](https://hexdocs.pm/supra) - Common functions and macros for Ecto.
 - [tablerone](https://github.com/synchronal/tablerone) - Renders Tabler Icons by downloading individual icons to the
   priv directory of the parent application during development, and loading them from files at runtime.
 - [xml_query](https://github.com/synchronal/xml_query) - Some simple XML query functions. Delegates much of its work
