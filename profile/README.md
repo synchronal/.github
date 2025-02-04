@@ -1,6 +1,10 @@
 Synchronal is an unincorporated cooperative group dedicated to developing and maintaining
 open-source projects. We care deeply about testing and development workflow.
 
+You can sponsor our work here:
+
+<iframe src="https://github.com/sponsors/reflective-dev/card" title="Sponsor reflective-dev" height="225" width="600" style="border: 0;"></iframe>
+
 ## Elixir
 
 - [ecto_date_time_range](https://hexdocs.pm/ecto_date_time_range) - A library extending Ecto with field types to handle
