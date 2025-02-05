@@ -9,7 +9,7 @@ Support our open source work by 💕 [sponsoring us](https://github.com/sponsors
 - [ecto_date_time_range](https://hexdocs.pm/ecto_date_time_range) - A library extending Ecto with field types to handle
   PostgreSQL column types encapsulating timestamp ranges. The types provided by this library can be paired with view
   components in order to facilitate editing ranges in forms.
-- [ecto_email](https://hexdocs.pm/ecto_email/) - An Ecto.Type for email addresses, using the :email_validator library for validations.
+- [ecto_email](https://hexdocs.pm/ecto_email/) - An Ecto.Type for email addresses, using the ex_email library for validations.
 - [ecto_phone](https://hexdocs.pm/ecto_phone) - A custom Ecto type for phone numbers, with configuration for default country prefix and formatting style.
 - [ecto_temp](https://hexdocs.pm/ecto_temp) - An Ecto extension to support using PostgreSQL temporary tables with Ecto.
   This can be useful in situations where permanent tables may not be viable, such as when testing data migrations
