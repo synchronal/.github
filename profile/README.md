@@ -1,7 +1,8 @@
 Synchronal is an unincorporated cooperative group dedicated to developing and maintaining
 open-source projects. We care deeply about testing and development workflow.
 
-Support our open source work by [sponsoring us](https://github.com/sponsors/reflective-dev) (through our consulting company).
+Support our open source work by 💕 [sponsoring us](https://github.com/sponsors/reflective-dev) 💕 
+(through our consulting company, [Reflective Software](https://reflective.dev)).
 
 ## Elixir
 
