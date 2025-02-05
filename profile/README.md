@@ -23,8 +23,8 @@ Support our open source work by 💕 [sponsoring us](https://github.com/sponsors
 - [ex_email](https://hexdocs.pm/ex_email) - Email parsing and validation library.
 - [hex-publish-action](https://github.com/synchronal/hex-publish-action) - This action publishes an Elixir package
   to Hex.pm.
-- [html_query](https://hexdocs.pm/html_query) - Helpers for finding and traversing HTML
-  in Elixir. Typically used in tests for Phoenix/LiveView projects, paired with [pages](https://hexdocs.pm/pages).
+- [html_query](https://hexdocs.pm/html_query) - A concise API, honed over multiple years, for querying HTML.
+  Typically used in tests for Phoenix/LiveView projects, paired with [pages](https://hexdocs.pm/pages).
 - [markdown_formatter](https://hexdocs.pm/markdown_formatter/readme.html) - An Elixir formatter plugin for
   for Markdown.
 - [medic](https://hexdocs.pm/medic) - Development workflow management. Help developers to
