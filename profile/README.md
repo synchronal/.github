@@ -20,6 +20,7 @@ Support our open source work by 💕 [sponsoring us](https://github.com/sponsors
 - [exceed](https://hexdocs.pm/exceed) - A high-level stream-oriented library for generating Excel files, useful
   when generating spreadsheets from data sets large enough that they may exceed available memory—or the available
   memory that one wants to dedicate to building spreadsheets.
+- [ex_email](https://hexdocs.pm/ex_email) - Email parsing and validation library.
 - [hex-publish-action](https://github.com/synchronal/hex-publish-action) - This action publishes an Elixir package
   to Hex.pm.
 - [html_query](https://hexdocs.pm/html_query) - Helpers for finding and traversing HTML
